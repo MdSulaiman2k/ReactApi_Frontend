@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 
 const stval = {
   marginLeft : "10px"
@@ -6,7 +6,7 @@ const stval = {
 
 function App(prox) 
     {
-      return(<div className="col col-lg-3 col-md-3 col-sm-4"> 
+      return(<div key={prox.key} className="col col-lg-3 col-md-3 col-sm-4"> 
             <img className= "imgitems" src={prox.img} />
             <h5 className="hot-name" >{prox.htname}</h5>
             <p className="hot-cat">{prox.des}</p>

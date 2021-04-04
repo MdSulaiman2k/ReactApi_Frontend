@@ -73,9 +73,10 @@ h2{
 .col {
   margin-top : 3rem;
   margin-bottom:  1rem;
-  padding:  30px ;
+  padding:  10px  ;
   margin-left: 2rem;
   box-sizing: border-box;
+  height : 30%;
  
 }
 
@@ -87,7 +88,7 @@ h2{
 
 .imgitems{
    width : 95% ; 
-   height : 50%;
+   height : 10%;
    margin : 5px 2px 5px 5px ; 
 }
 
